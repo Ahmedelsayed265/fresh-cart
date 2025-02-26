@@ -89,7 +89,7 @@ export default function Cart() {
                           <button
                             onClick={() =>
                               handleUpdateQuantity(
-                                product?._id,
+                                product?.product?._id,
                                 product?.count + 1
                               )
                             }
@@ -100,7 +100,7 @@ export default function Cart() {
                           <button
                             onClick={() =>
                               handleUpdateQuantity(
-                                product?._id,
+                                product?.product?._id,
                                 product?.count - 1
                               )
                             }
